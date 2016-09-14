@@ -1,8 +1,8 @@
 $( document ).ready(function() {
-    $('.stepTwoTitle').hide();
-    $('.stepTwo').hide();
-    $('.stepThreeTitle').hide();
-    $('.stepThree').hide();
+    // $('.stepTwoTitle').hide();
+    // $('.stepTwo').hide();
+    // $('.stepThreeTitle').hide();
+    // $('.stepThree').hide();
 });
 
 var substringMatcher = function(strs) {

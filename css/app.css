@@ -23,6 +23,11 @@ div {
     font-family: 'Orienta', sans-serif;
 }
 
+.loading {
+    width: 20%;
+    height: 20%;
+}
+
 .tt-hint {
     color: #999;
 }
