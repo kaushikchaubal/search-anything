@@ -1,0 +1,54 @@
+input[type=text] {
+    width: 300px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+}
+
+div {
+    text-align:center;
+}
+
+.title {
+    margin: 1em 0 0.5em 0;
+    color: #343434;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 40px;
+    font-family: 'Orienta', sans-serif;
+}
+
+.tt-hint {
+    color: #999;
+}
+
+.tt-menu {
+    width: 300px;
+    margin-top: 12px;
+    padding: 8px 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+}
+
+.tt-suggestion {
+    padding: 3px 20px;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.tt-suggestion.tt-cursor { /* UPDATE: newer versions use .tt-suggestion.tt-cursor */
+    color: #fff;
+    background-color: #0097cf;
+}
+
+.tt-suggestion p {
+    margin: 0;
+}
