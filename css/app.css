@@ -41,6 +41,7 @@ div {
     border: 1px solid rgba(0, 0, 0, 0.2);
     border-radius: 8px;
     box-shadow: 0 5px 10px rgba(0,0,0,.2);
+    font-family: 'Orienta', sans-serif;
 }
 
 .tt-suggestion {
@@ -49,9 +50,10 @@ div {
     line-height: 24px;
 }
 
-.tt-suggestion.tt-cursor { /* UPDATE: newer versions use .tt-suggestion.tt-cursor */
+.tt-suggestion.tt-cursor {
     color: #fff;
     background-color: #0097cf;
+    font-family: 'Orienta', sans-serif;
 }
 
 .tt-suggestion p {
