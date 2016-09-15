@@ -26,10 +26,11 @@
 
 	<!-- Scripts -->
 	<script src="https://code.jquery.com/jquery-1.12.4.js" type="text/javascript" charset="utf-8"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 	<!-- CSS -->
 	<link rel="stylesheet" href="css/app.css">
-	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
 	<!-- Favicons -->
 	<link rel="shortcut icon" href="favicon.ico" >
@@ -37,29 +38,37 @@
 
 <body>	
 
-	<div class="title">
-		Step 1: Select the service and method
+	<nav class="navbar navbar-inverse">
+	  <div class="container-fluid">
+	    <div class="navbar-header">
+	      <a class="navbar-brand" href="#">Search Anything</a>
+	    </div>
+	  </div>
+	</nav>
+
+	<div class="centre title">
+		Step 1: Services & Methods
 	</div>
 
-	<div>
-		<input type="text" class="services" placeholder="Services">
-		<input type="text" class="methods" placeholder="Methods">
+	<div class="centre">
+		<input type="text" class="services" placeholder="Select a Service">
+		<input type="text" class="methods" placeholder="Select a Method">
 	</div>
 
-	<div class="title stepTwoTitle">
-		Step 2: Select the required attributes
+	<div class="centre title stepTwoTitle">
+		Step 2: Required Attributes
 	</div>
 
-	<div class="stepTwo">
+	<div class="centre stepTwo">
 		<input type="text" class="dbName" placeholder="Database Name">
 		<input type="text" class="tableName" placeholder="Table Name">
 	</div>
 
-	<div class="title stepThreeTitle">
-		Step 3: Get response for the request!
+	<div class="centre title stepThreeTitle">
+		Step 3: Visualise the data!
 	</div>
 
-	<div class="stepThree">
+	<div class="centre stepThree">
 		<img class="loading" src="images/loading.gif" alt="loading">
 	</div>
 
